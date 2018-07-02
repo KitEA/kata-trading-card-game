@@ -1,0 +1,68 @@
+# This file specifies intentionally untracked
+# files that Git should ignore.
+
+freightnet-air-site/ecommerce-testsuite/jbehave/
+
+# IDEA IDE
+*.ipr
+*.iml
+*.iws
+.idea/
+out/
+
+# Eclipse IDE
+.metadata/
+.settings/
+.classpath
+.project
+.settings
+.pmd
+.checkstyle
+.springBeans
+bin/
+Servers/
+RemoteSystemsTempFiles/
+.recommenders/
+infinitest.filters
+
+# Gradle
+.gradle/
+.gradletasknamecache
+build/
+target/
+
+# JRebel
+rebel.xml
+
+# Sublime Text Editor
+*.sublime-project
+*.sublime-workspace
+
+# Vagrant
+.vagrant/
+/etc/vagrant/provisioning/binaries/
+
+# NodeJS
+node_modules/
+
+# temporary runtime artifacts
+work/
+logs/
+tmp/
+application.pid
+
+# generated content
+generated/
+
+# Mockserver
+mockserver*.log
+
+# Emacs
+*#
+*~
+
+# Zanata
+.zanata-cache
+
+# Mac
+.DS_Store
